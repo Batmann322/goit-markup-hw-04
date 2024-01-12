@@ -110,7 +110,7 @@ img {
   position: absolute;
   display: block;
   left: 0;
-  bottom: -1%;
+  bottom: -1px;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -159,6 +159,7 @@ img {
 }
 
 .hiro {
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -175,7 +176,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1440px;
 }
 
 .titel {
@@ -324,6 +324,10 @@ img {
   gap: 24px;
 }
 
+.item-social {
+  height: 40px;
+}
+
 .link {
   display: flex;
   justify-content: center;
@@ -469,6 +473,10 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.item-social {
+  height: 40px;
 }
 
 .social-footer-link {
